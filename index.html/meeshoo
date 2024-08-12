@@ -1,0 +1,1699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping site for Fashion</title>
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+         <!-- font awsome -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+         <!-- Google font -->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Black+Ops+One&family=
+         Gupter:wght@400;500;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;
+         0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lilita+One&family=M+PLUS+Rounded+1c&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+             <!-- fav icon -->
+             <link rel="icon" type="image/png" href="https://th.bing.com/th/id/OIP.rw994mz1-DGPDjY_rHC8kgAAAA?rs=1&pid=ImgDetMain">
+             <style>
+                 *{
+                    font-family: "Roboto", sans-serif;
+     
+         
+                 }
+             </style>
+</head>
+<body>
+
+
+  <nav class="navbar fixed-top navbar-expand-lg shadow mb-1" style="background-color:white;">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="https://companieslogo.com/img/orig/meesho_BIG-61019c35.png?t=1699347184&download=true" alt="mesho" width="150" height="50"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse ms-5" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+  
+          <div class="d-flex" style="height: 40px;">
+    <div class="vr"></div>
+  </div>
+            <li class="nav-item navbar-expand-lg ">
+                <form class="d-flex" role="search">&nbsp;
+        <input class="form-control me-2 border-0 focus-ring py-10 px-1" style="width:450px;border-style:none;" type="search" placeholder="try  Saree, Kurthi or Search by" aria-label="Search"><img src="" width="25" height="25">
+      </form>
+          </li>&nbsp;
+          <div class="d-flex" style="height: 40px;">
+    <div class="vr"></div>
+  </div>
+          <li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button style="border:0; background-color:white;"><img src="">Download App</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button style="border:0; background-color:white;"><img src="">Become a Supplier </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button style="border:0; background-color:white;"><img src="">Profile </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button style="border:0; background-color:white;"><img src="">Cart </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+<br><br><br>
+<br>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+    <a class="navbar-brand" href="#">Women Ethnic </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+    
+        <li class="navbar-nav">
+          <a class="navbar-brand" aria-current="page" href="#">Women Western  </a>
+          <span class=""></span>
+
+        </li>
+
+        <li class="navbar-nav">
+          <a class="navbar-brand" href="#">Kids</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </li>
+
+        <li class="navbar-nav">
+          <a class="navbar-brand" href="#">Home & Kitchen</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </li>
+        
+      
+        <li class="navbar-nav">
+          <a class="navbar-brand" href="#">Beauty & Health</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </li>
+        
+        <li class="navbar-nav">
+          <a class="navbar-brand" href="#">Jewellery & Accessories</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </li>
+        
+        <li class="navbar-nav">
+          <a class="navbar-brand" href="#">Bags & Footwear</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </li>
+            <li class="navbar-nav">
+          <a class="navbar-brand" href="#">Electronicsr</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<br><br>
+<!-- Home -->
+    
+<div class="container" align="center">
+  <table>
+      <tr>
+      <td>
+
+          <div style="background-color:lavender;"><br><br>
+              <div class="container">
+              <h1><b>Lowest Price<br>Best Quality Shopping</b></h1><br>
+          </div>
+
+
+
+          <div class="container">
+              <div style="background-color:white; width:450px;height:65px; border-radius:4px" >
+                  <table>
+                      <tr>
+                          <td>
+                              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                          </td>
+                          <td>
+                              <img src="https://images.meesho.com/images/pow/freeDelivery_jamun.svg">
+                          </td>
+                          <td>
+                              <p>Free<br>Delivery</p>
+                          </td>
+                          <td>
+                              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                          </td>
+                          <td>
+                              <div style="height:50px;" class="vr"></div>
+                          </td>
+                          <td>
+                              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                          </td>
+
+                          <td>
+                              <img src="https://images.meesho.com/images/pow/cod_jamun.svg">
+                          </td>
+                          <td>
+                              <p>Cash on<br>Delivery</p>
+                          </td>
+                          <td>
+                              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                          </td>
+                          <td>
+                              <div style="height:50px;" class="vr"></div>
+                          </td>
+                          <td>
+                              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                          </td>
+
+
+                          <td>
+                              <img src="https://images.meesho.com/images/pow/easyReturns_jamun.svg">
+                          </td>
+                          <td>
+                              <p>Easy<br>Returns</p>
+                          </td>
+
+
+                      </tr>
+                  </table>
+              </div>
+          </div><br>
+
+
+
+
+
+              <div class="container">
+              <div style="background-color:purple; color:white;width:300px;height:54px;border-radius:4px; justify-content:center;align-items:center;display:flex;">
+                  <p style="font-size:18px;"><img src="https://images.meesho.com/images/pow/playstoreSmallIcon.png">&nbsp;&nbsp;<b>Download the Meesho App</b></p>
+              </div>
+                  </div><br>
+
+              </div>
+      </td>
+
+      <td>
+          <img src="https://images.meesho.com/images/marketing/1722839152228_512.webp">
+      </td>
+      </tr>
+  </table>
+</div>
+
+<br>
+
+<center>
+<h1 class="text-center">---------- Top Categories to choose from -------------</h1>
+</center>
+
+<br><br>
+<!-- about -->
+
+<div id="cagh">
+  <style>
+  #cagh{
+    background-image: url();
+
+  }
+</style>
+
+
+<div class="row">
+
+  <div class="col-3 border border-3 mx-5 mt-3">
+  <h2 class="text-center">Kid's Store</h2>
+  
+  <div class="card-group">
+    
+    <div class="card">
+      <a href=""><img width="170px" src="https://www.bing.com/th?id=OPAC.p3bgBR1OWdMFxQ474C474&o=5&pid=21.1&w=160&h=213&rs=1&qlt=100&dpr=1.3&c=8&pcl=f5f5f5" alt="phone1" width="100p" height="100"></a>
+      <div class="card-body">
+        <p class="card-title"><b ></b>Clothing</p>
+      </div>
+    </div>
+    <div class="card">
+      <img width="140px" height="100px" src="https://th.bing.com/th?id=OPAC.NGVwT%2fVwVMOWAw474C474&w=220&h=220&c=17&o=5&dpr=1.3&pid=21.1" class="card-img-top" alt="phone2">
+      <div class="card-body">
+        <p class="card-title"><b>Accessories</b></p>
+        
+      </div>
+    </div>
+   </div>
+  
+
+  <div class="card-group">
+    <div class="card">
+      <a href=""><img width="170px" height="114px" src="https://th.bing.com/th?id=OPAC.czp3uWBtkNnfew474C474&w=220&h=220&c=17&o=5&dpr=1.3&pid=21.1" alt="Toys" width="100p" height="100"></a>
+      <div class="card-body">
+        <p class="car-tditle"><b >Toys</b></p>
+      </div>
+    </div>
+  
+    <div class="card">
+      <img src="https://th.bing.com/th?id=OPAC.S7iMc36tS7qA8Q474C474&w=220&h=210&c=17&o=5&dpr=1.3&pid=21.1" class="card-img-top" alt="phone2">
+      <div class="card-body">
+        <p class="card-title"><b>Healthcare</b> </p>
+        
+      </div>
+    </div>
+   
+  </div>
+
+        
+   </div>
+
+
+
+
+   <div class="col-3 border border-3 mx-5 mt-3">
+    <h2 class="text-center">Women's Store</h2>
+    
+    <div class="card-group">
+      
+      <div class="card">
+        <a href=""><img width="170px" src="https://th.bing.com/th?id=OPAC.lqpUdF1d6FMTTA474C474&w=220&h=210&c=17&o=5&dpr=1.3&pid=21.1" alt="phone1" width="100p" height="100"></a>
+        <div class="card-body">
+          <p class="card-title"><b >Clothing</b></p>
+        </div>
+      </div>
+      <div class="card">
+        <img width="140px" height="100px" src="https://th.bing.com/th?id=OPAC.rcBGIChA07%2bGeQ474C474&w=220&h=220&c=17&o=5&dpr=1.3&pid=21.1" class="card-img-top" alt="phone2">
+        <div class="card-body">
+          <p class="card-title"><b>Handbag</b></p>
+          
+        </div>
+      </div>
+     </div>
+    
+  
+    <div class="card-group">
+      <div class="card">
+        <a href=""><img width="170px" height="114px" src="https://th.bing.com/th?id=OPAC.Qu6Jg96AxQ445A474C474&w=220&h=220&c=17&o=5&dpr=1.3&pid=21.1" alt="phone1" width="100p" height="100"></a>
+        <div class="card-body">
+          <p class="car-tditle"><b >Jewellery</b></p>
+        </div>
+      </div>
+    
+      <div class="card">
+        <img src="https://th.bing.com/th?id=OPAC.uXUwLVD6Wesy9A474C474&w=220&h=220&c=17&o=5&dpr=1.3&pid=21.1" class="card-img-top" alt="phone2">
+        <div class="card-body">
+          <p class="card-title"><b>Beauty</b> </p>
+          
+        </div>
+      </div>
+     
+    </div>
+  
+          
+     </div>
+
+
+
+     <div class="col-3 border border-3 mx-5 mt-3">
+      <h2 class="text-center">Men's Store</h2>
+      
+      <div class="card-group">
+        
+        <div class="card">
+          <a href=""><img width="170px" src="https://th.bing.com/th?id=OPAC.HKK1hHTC%2ffXSYQ474C474&w=165&h=220&c=17&dpr=1.3&pid=21.1" alt="phone1" width="100p" height="100"></a>
+          <div class="card-body">
+            <p class="card-title"><b >Clothing</b> </p>
+          </div>
+        </div>
+        <div class="card">
+          <img width="140px" height="100px" src="https://th.bing.com/th?id=OPAC.TCPd3XJVypNv1Q474C474&w=200&h=220&c=17&dpr=1.3&pid=21.1" class="card-img-top" alt="phone2">
+          <div class="card-body">
+            <p class="card-title"><b>Grooming</b></p>
+            
+          </div>
+        </div>
+       </div>
+      
+    
+      <div class="card-group">
+        <div class="card">
+          <a href=""><img width="170px" height="114px" src="https://th.bing.com/th?id=OPAC.nXbVwmWfdaFxww474C474&w=220&h=220&c=17&o=5&dpr=1.3&pid=21.1" alt="belt" width="100p" height="100"></a>
+          <div class="card-body">
+            <p class="car-tditle"><b >Belt</b></p>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://th.bing.com/th?id=OPAC.SEAXYeYDJkBwlw474C474&w=220&h=210&c=17&o=5&dpr=1.3&pid=21.1" class="card-img-top" alt="kids">
+          <div class="card-body">
+            <p class="card-title"><b>Watches</b> </p>
+            
+          </div>
+        </div>
+       
+      </div>
+    
+            
+       </div>
+</div>
+  <br><br>
+<!-- products -->
+ <center>
+ <h1><b>New Style</b></h1>
+ <br>
+ <button>View All</button>
+ </center>
+ <br>
+<div class="row">
+
+  <div class="col-3 border border-3 mx-5 mt-3">
+  <h2 class="text-center">Accessories</h2>
+  
+  <div class="card-group">
+    
+    <div class="card">
+      <a href=""><img width="170px" src="https://th.bing.com/th?id=OPAC.l8x7CKgxGx8Ncw474C474&w=220&h=210&c=17&o=5&dpr=1.3&pid=21.1" alt="phone1" width="100p" height="100"></a>
+      <div class="card-body">
+       
+      </div>
+    </div>
+    <div class="card-group">
+      <div class="card">
+        <a href=""><img width="170px" height="114px" src="https://th.bing.com/th?id=OPAC.fyWjAxVsuHlJAw474C474&w=592&h=550&o=5&dpr=1.3&pid=21.1" alt="Toys" width="100p" height="100"></a>
+        <div class="card-body">
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </div>
+  </div>
+  <div class="col-3 border border-3 mx-5 mt-3">
+    <h2 class="text-center">Footwear</h2>
+    
+    <div class="card-group">
+      
+      <div class="card">
+        <a href=""><img width="170px" src="https://th.bing.com/th?id=OPAC.ppSbr9f1iyOsvg474C474&w=220&h=220&c=17&o=5&dpr=1.3&pid=21.1" alt="phone1" width="100p" height="100"></a>
+        <div class="card-body">
+
+        </div>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <a href=""><img width="170px" height="114px" src="https://www.bing.com/th?id=OPAC.xSKVl3r5AVJomA474C474&o=5&pid=21.1&w=160&h=272&rs=1&qlt=100&dpr=1.3&pcl=f5f5f5" alt="Toys" width="100p" height="100"></a>
+          <div class="card-body">
+
+          </div>
+        </div>
+      </div>
+  
+  
+  
+  
+    </div>
+    </div>
+    <div class="col-3 border border-3 mx-5 mt-3">
+      <h2 class="text-center">Electronics</h2>
+      
+      <div class="card-group">
+        
+        <div class="card">
+          <a href=""><img width="170px" src="https://www.bing.com/th?id=OPAC.radHgCiN2XtB%2fw474C474&o=5&pid=21.1&w=160&h=272&rs=1&qlt=100&dpr=1.3&pcl=f5f5f5" alt="phone1" width="100p" height="100"></a>
+          <div class="card-body">
+
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card">
+            <a href=""><img width="170px" height="114px" src="https://www.bing.com/th?id=OPAC.Z9nSvzTKLpG8iA474C474&o=5&pid=21.1&w=160&h=160&rs=1&qlt=100&dpr=1.3&pcl=f5f5f5" alt="Toys" width="100p" height="100"></a>
+            <div class="card-body">
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+</div>
+
+
+<br><br>
+<center>
+<h1><b>Essentials</b></h1>
+
+<br>
+<button id="btn btn-primary ">View All</button>
+</center>
+<div class="row">
+<div class="col-3 border border-3 mx-5 mt-3">
+  <h2 class="text-center">Home Decore</h2>
+  
+  <div class="card-group">
+    
+    <div class="card">
+      <a href=""><img width="170px" src="https://krystalkraft.in/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-28-at-11.35.45-PM.webp" alt="phone1" width="100p" height="100"></a>
+      <div class="card-body">
+
+      </div>
+    </div>
+    <div class="card-group">
+      <div class="card">
+        <a href=""><img width="170px" height="114px" src="https://th.bing.com/th?id=OPAC.Y%2bcuXWIlucW%2boQ474C474&w=136&h=136&c=17&o=6&dpr=1.3&pid=21.1" alt="Toys" width="100p" height="100"></a>
+        <div class="card-body">
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </div>
+  </div>
+  <div class="col-3 border border-3 mx-5 mt-3">
+    <h2 class="text-center">Kitchen Appliances</h2>
+    
+    <div class="card-group">
+      
+      <div class="card">
+        <a href=""><img width="170px" src="https://m.media-amazon.com/images/I/71-WNYc4GGS._AC_UL960_QL65_.jpg" alt="phone1" width="100p" height="100"></a>
+        <div class="card-body">
+
+        </div>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <a href=""><img width="170px" height="114px" src="https://slimages.macysassets.com/is/image/MacysInc/HomeAllKitchenCookware420565_1499815:1x1?$106_lg_desktop$&fmt=png-alpha " alt="Toys" width="100p" height="100"></a>
+          <div class="card-body">
+
+          </div>
+        </div>
+      </div>
+  
+  
+  
+  
+    </div>
+    </div>
+    <div class="col-3 border border-3 mx-5 mt-3">
+      <h2 class="text-center">Healthcare</h2>
+      
+      <div class="card-group">
+        
+        <div class="card">
+          <a href=""><img width="170px" src="https://www.bing.com/th?id=OPAC.GH7hjgeY2W2Upw474C474&o=5&pid=21.1&w=136&h=158&rs=1&qlt=100&dpr=1.3&c=8&pcl=f5f5f5" alt="phone1" width="100p" height="100"></a>
+          <div class="card-body">
+
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card">
+            <a href=""><img width="170px" height="114px" src="https://www.bing.com/th?id=OPAC.5ByHi8FaNBgdWg474C474&o=5&pid=21.1&w=136&h=158&rs=1&qlt=100&dpr=1.3&c=8&pcl=f5f5f5" alt="Toys" width="100p" height="100"></a>
+            <div class="card-body">
+
+            </div>
+          </div>
+        </div>
+    
+    
+    
+    
+      </div>
+      </div>
+</div>
+
+<br><br>
+<div id="dfggh">
+<style>
+  #dfggh{
+    background-image:url(https://images.meesho.com/images/pow/downloadBannerDesktop_1050.webp);
+    width: 2500px;
+    height: 700px;
+    object-fit: fill;
+    justify-content: center;
+    background-repeat: no-repeat;
+    -o-object-fit: cover;
+  }
+</style>
+
+<h3 class="text-center " id="sdfgh">Become a Reseller and</h3>
+<style>
+  #sdfgh{
+    color: rgb(74, 74, 202);
+  }
+</style>
+<h1 class="text-center" id="erty">Start your Online Business <br>
+  with Zero Investment</h1>
+  <style>
+    #erty{
+      color: darkmagenta;
+    }
+  </style>
+</div>
+<br>
+<!-- link -->
+ <img height="200px" width="1500px" src="https://th.bing.com/th/id/OIP.MymJ8zajFSEkhV4dLO6TWgHaCH?rs=1&pid=ImgDetMain" alt=""> 
+ <a href="https://supplier.meesho.com/"></a> 
+
+<br>
+
+
+
+
+<div class="row border border-4  mt-1 mx-4">
+  <h2>Trending Saree
+    
+    </h2> 
+    
+
+<div id="carouselExample" class="carousel slide">
+<div class="carousel-inner">
+  <div class="carousel-item active">
+   <div class="row">
+
+    <div class="col-3 mb-2">
+      
+    <div class="card" style="width: 18rem;">
+     <img src="https://www.bing.com/th?id=OPAC.WzcpxBT7tchzZw474C474&o=5&pid=21.1&w=160&h=160&rs=1&qlt=100&dpr=1.3&c=8&pcl=f5f5f5" class="card-img-top" alt="..."> 
+      <div class="card-body">
+       
+        <p class="card-text" ><span id="off">63% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+        <p>₹21,999<sup>00</sup><br>Black 3D Floral Embroidered Organza Saree
+          Style No:SG110784
+          </p>
+        <style>
+          #textclr{
+            color: red;
+          }
+          #off{
+            background-color: red ;
+            color: white;
+          }
+        </style>
+       
+      </div>
+    </div>
+  </div>
+   
+  <div class="col-3 mb-2">
+  <div class="card" style="width: 18rem;">
+    <img src="https://www.bing.com/th?id=OPAC.90s%2f6GMGZ2pbbA474C474&o=5&pid=21.1&w=160&h=160&rs=1&qlt=100&dpr=1.3&c=8&pcl=f5f5f5" class="card-img-top" alt="..."> 
+     <div class="card-body">
+      
+       <p class="card-text" ><span id="off">64% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+       <p>₹999<sup>00</sup><br>Purple Satin Saree With Embellished Scallop Border
+        Style No: SG213225
+        </p>
+       <style>
+         #textclr{
+           color: red;
+         }
+         #off{
+           background-color: red ;
+           color: white;
+         }
+       </style>
+      
+     </div>
+   </div>
+ </div>
+
+ <div class="col-3 mb-2">
+  <div class="card" style="width: 18rem;">
+    <img height="290px" src="https://www.bing.com/th?id=OPAC.tSutePHjTcJRig474C474&o=5&pid=21.1&w=160&h=160&rs=1&qlt=100&dpr=1.3&c=8&pcl=f5f5f5" class="card-img-top" alt=""> 
+     <div class="card-body">
+      
+       <p class="card-text" ><span id="off">88% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+       <p>₹599<sup>00</sup><br>Multicolor Floral Printed Saree In Organza With Cut Dana Butti All Over
+        Style No:SG155847</p>
+       <style>
+         #textclr{
+           color: red;
+         }
+         #off{
+           background-color: red ;
+           color: white;
+         }
+       </style>
+      
+     </div>
+   </div>
+ </div>
+     
+      
+ <div class="col-3 mb-2">
+  <div class="card" style="width: 18rem;">
+    <img src="https://www.bing.com/th?id=OPAC.XUXX6l5BtYv3sQ474C474&o=5&pid=21.1&w=160&h=160&rs=1&qlt=100&dpr=1.3&c=8&pcl=f5f5f5" class="card-img-top" alt="..."> 
+     <div class="card-body">
+      
+       <p class="card-text" ><span id="off">40% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+       <p>₹2,699<sup>00</sup><br>Multicolor Abstract Printed Saree In Organza With Cut Dana Butti All Over
+        Style No:SG155846</p>
+       <style>
+         #textclr{
+           color: red;
+         }
+         #off{
+           background-color: red ;
+           color: white;
+         }
+       </style>
+      
+     </div>
+   </div>
+ </div>
+     
+ 
+      
+  
+   </div>
+
+
+     </div>
+     </div>
+
+
+        </div>
+
+     </div>
+
+<br>
+<div class="row border border-4  mt-1 mx-4">
+  <h2>Trending Kurti
+    
+    </h2> 
+    
+
+<div id="carouselExample" class="carousel slide">
+<div class="carousel-inner">
+  <div class="carousel-item active">
+   <div class="row">
+
+    <div class="col-3 mb-2">
+      
+    <div class="card" style="width: 18rem;">
+     <img src="https://www.bing.com/th?id=OPAC.3xxXLmqVaMtm0A474C474&o=5&pid=21.1&w=160&h=213&rs=1&qlt=100&dpr=1.3&c=8&pcl=f5f5f5" class="card-img-top" alt="..."> 
+      <div class="card-body">
+       
+        <p class="card-text" ><span id="off">63% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+        <p>₹1,899<sup>00</sup><br>KALINI
+          Women Floral Printed Empire Pure Cotton Kurti with Palazzos & With Dupatta
+          </p>
+        <style>
+          #textclr{
+            color: red;
+          }
+          #off{
+            background-color: red ;
+            color: white;
+          }
+        </style>
+       
+      </div>
+    </div>
+  </div>
+   
+  <div class="col-3 mb-2">
+  <div class="card" style="width: 18rem;">
+    <img src="https://www.bing.com/th?id=OPAC.rHEZUxXGfER8Ig474C474&o=5&pid=21.1&w=160&h=213&rs=1&qlt=100&dpr=1.3&c=8&pcl=f5f5f5" class="card-img-top" alt="..."> 
+     <div class="card-body">
+      
+       <p class="card-text" ><span id="off">64% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+       <p>₹2,699<sup>00</sup><br>Yufta
+        Women Black Empire Mirror Work Pure Cotton Kurti with Sharara & With Dupatta
+        </p>
+       <style>
+         #textclr{
+           color: red;
+         }
+         #off{
+           background-color: red ;
+           color: white;
+         }
+       </style>
+      
+     </div>
+   </div>
+ </div>
+
+ <div class="col-3 mb-2">
+  <div class="card" style="width: 18rem;">
+    <img height="290px" src="https://www.bing.com/th?id=OPAC.e%2fh7dXPMQpvQSg474C474&o=5&pid=21.1&w=160&h=213&rs=1&qlt=100&dpr=1.3&c=8&pcl=f5f5f5" class="card-img-top" alt=""> 
+     <div class="card-body">
+      
+       <p class="card-text" ><span id="off">88% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+       <p>₹3,779<sup>00</sup><br>Koskii
+        Women Floral Yoke Design Regular Thread Work Kurti with Trousers & With Dupatta
+        </p>
+       <style>
+         #textclr{
+           color: red;
+         }
+         #off{
+           background-color: red ;
+           color: white;
+         }
+       </style>
+      
+     </div>
+   </div>
+ </div>
+     
+      
+ <div class="col-3 mb-2">
+  <div class="card" style="width: 18rem;">
+    <img src="https://www.bing.com/th?id=OPAC.SZtsBUCZkrZXOw474C474&o=5&pid=21.1&w=160&h=213&rs=1&qlt=100&dpr=1.3&c=8&pcl=f5f5f5" class="card-img-top" alt="..."> 
+     <div class="card-body">
+      
+       <p class="card-text" ><span id="off">40% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+       <p>₹2,699<sup>00</sup><br>Trendmalls
+        Women Floral Embroidered Regular Kurti with Trousers & With Dupatta
+        </p>
+       <style>
+         #textclr{
+           color: red;
+         }
+         #off{
+           background-color: red ;
+           color: white;
+         }
+       </style>
+      
+     </div>
+   </div>
+ </div>
+     
+ 
+      
+  
+   </div>
+
+
+     </div>
+     </div>
+
+
+        </div>
+
+     </div>
+     <br>
+     <div class="row border border-4  mt-1 mx-4">
+      <h2>Trending Kurta
+        
+        </h2> 
+        
+  
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+       <div class="row">
+
+        <div class="col-3 mb-2">
+          
+        <div class="card" style="width: 18rem;">
+         <img src="https://th.bing.com/th?id=OPAC.5Fl2QqTIwAUT2Q474C474&w=160&h=213&c=17&dpr=1.3&pid=21.1 " class="card-img-top" alt="..."> 
+          <div class="card-body">
+           
+            <p class="card-text" ><span id="off">63% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+            <p>₹1,999<sup>00</sup><br>ROYAL KURTA
+              Men's Orange Striped Pleated Pure Cotton Kurta And Dhoti Set</p>
+            <style>
+              #textclr{
+                color: red;
+              }
+              #off{
+                background-color: red ;
+                color: white;
+              }
+            </style>
+           
+          </div>
+        </div>
+      </div>
+       
+      <div class="col-3 mb-2">
+      <div class="card" style="width: 18rem;">
+        <img src="https://th.bing.com/th?id=OPAC.zOTiFlOxeo3i4w474C474&w=160&h=213&c=17&dpr=1.3&pid=21.1" class="card-img-top" alt="..."> 
+         <div class="card-body">
+          
+           <p class="card-text" ><span id="off">64% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+           <p>₹999<sup>00</sup><br>Jompers
+            Men Black Solid Kurta with Churidar</p>
+           <style>
+             #textclr{
+               color: red;
+             }
+             #off{
+               background-color: red ;
+               color: white;
+             }
+           </style>
+          
+         </div>
+       </div>
+     </div>
+
+     <div class="col-3 mb-2">
+      <div class="card" style="width: 18rem;">
+        <img height="290px" src="https://th.bing.com/th?id=OPAC.bbtOflvlsWu9kQ474C474&w=160&h=213&c=17&dpr=1.3&pid=21.1" class="card-img-top" alt=""> 
+         <div class="card-body">
+          
+           <p class="card-text" ><span id="off">88% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+           <p>₹2899<sup>00</sup><br>even
+            Men Blue Solid Kurta with Churidar
+             </p>
+           <style>
+             #textclr{
+               color: red;
+             }
+             #off{
+               background-color: red ;
+               color: white;
+             }
+           </style>
+          
+         </div>
+       </div>
+     </div>
+         
+          
+     <div class="col-3 mb-2">
+      <div class="card" style="width: 18rem;">
+        <img src="https://th.bing.com/th?id=OPAC.19itnOmFT%2bT6QA474C474&w=160&h=213&c=17&dpr=1.3&pid=21.1 " class="card-img-top" alt="..."> 
+         <div class="card-body">
+          
+           <p class="card-text" ><span id="off">40% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+           <p>₹2,699<sup>00</sup><br>KLOTTHE
+            Men Solid Kurta with Churidar Pyjamas
+             </p>
+           <style>
+             #textclr{
+               color: red;
+             }
+             #off{
+               background-color: red ;
+               color: white;
+             }
+           </style>
+          
+         </div>
+       </div>
+     </div>
+         
+     
+          
+      
+       </div>
+
+
+         </div>
+         </div>
+
+
+            </div>
+
+    </div>
+    <br>
+    <div class="row border border-4  mt-1 mx-4">
+      <h2>Trending Shirt
+        
+        </h2> 
+        
+  
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+       <div class="row">
+
+        <div class="col-3 mb-2">
+          
+        <div class="card" style="width: 18rem;">
+         <img src="https://th.bing.com/th/id/OIP.wOt_c1u3RMmzjCjg5evv5gHaJ4?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="card-img-top" alt="..."> 
+          <div class="card-body">
+           
+            <p class="card-text" ><span id="off">63% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+            <p>₹2,999<sup>00</sup><b>KISAH
+              Self-Design Cotton Sherwani Set
+              </b></p>
+            <style>
+              #textclr{
+                color: red;
+              }
+              #off{
+                background-color: red ;
+                color: white;
+              }
+            </style>
+           
+          </div>
+        </div>
+      </div>
+       
+      <div class="col-3 mb-2">
+      <div class="card" style="width: 18rem;">
+        <img src="https://th.bing.com/th?id=OPAC.%2f6MUr8Ye%2bB8ZJg474C474&w=220&h=210&c=17&o=5&dpr=1.3&pid=21.1" class="card-img-top" alt="..."> 
+         <div class="card-body">
+          
+           <p class="card-text" ><span id="off">64% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+           <p>₹999<sup>00</sup><br>HIGHLANDER Men Black Slim Fit Solid Casual Shirt
+           </p>
+           <style>
+             #textclr{
+               color: red;
+             }
+             #off{
+               background-color: red ;
+               color: white;
+             }
+           </style>
+          
+         </div>
+       </div>
+     </div>
+
+     <div class="col-3 mb-2">
+      <div class="card" style="width: 18rem;">
+        <img height="290px" src="https://th.bing.com/th?id=OPAC.GfX5xvDK3uC1gA474C474&w=220&h=210&c=17&o=5&dpr=1.3&pid=21.1" class="card-img-top" alt=""> 
+         <div class="card-body">
+          
+           <p class="card-text" ><span id="off">88% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+           <p>₹1999<sup>00</sup><br>BAALVEER Fashion Men's Casual 100% Cotton Regular Fit Shirt Full Sleeve Comfort Wear Shirt (X-Large, WHI_BLA)
+           </p>
+           <style>
+             #textclr{
+               color: red;
+             }
+             #off{
+               background-color: red ;
+               color: white;
+             }
+           </style>
+          
+         </div>
+       </div>
+     </div>
+         
+          
+     <div class="col-3 mb-2">
+      <div class="card" style="width: 18rem;">
+        <img src="https://th.bing.com/th?id=OPAC.fi1sy%2b8iBPer3g474C474&w=220&h=210&c=17&o=5&dpr=1.3&pid=21.1" class="card-img-top" alt="..."> 
+         <div class="card-body">
+          
+           <p class="card-text" ><span id="off">40% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+           <p>₹699<sup>00</sup><br>SOJANYA Men Charcoal Grey & Black Classic Regular Fit Micro Ditsy Printed</p>
+           <style>
+             #textclr{
+               color: red;
+             }
+             #off{
+               background-color: red ;
+               color: white;
+             }
+           </style>
+          
+         </div>
+       </div>
+     </div>
+         
+     
+          
+      
+       </div>
+
+
+         </div>
+         </div>
+
+
+            </div>
+
+        <br>
+
+    </div>
+    <div class="row border border-4  mt-1 mx-4">
+      <h2>Trending Kid's Boy's
+        
+        </h2> 
+        
+  
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+       <div class="row">
+
+        <div class="col-3 mb-2">
+        <img src="https://www.bing.com/th?id=OIP.Z4Oxp83BrTHEvX0S0RzTFAHaKQ&w=150&h=208&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" class="card-img-top" alt="..."> 
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+           
+            <p class="card-text" ><span id="off">63% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+            <p>₹1000<sup>00</sup><br>H&M
+              Boys Navy Blue Solid Suit
+              </p>
+            <style>
+              #textclr{
+                color: red;
+              }
+              #off{
+                background-color: red ;
+                color: white;
+              }
+            </style>
+           
+          </div>
+        </div>
+      </div>
+       
+      <div class="col-3 mb-2">
+      <div class="card" style="width: 18rem;">
+        <img src="https://www.bing.com/th?id=OPAC.ZYEC1EGgFPpnLQ474C474&o=5&pid=21.1&w=160&h=240&rs=1&qlt=100&dpr=1.3&pcl=f5f5f5" class="card-img-top" alt="..."> 
+         <div class="card-body">
+          
+           <p class="card-text" ><span id="off">64% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+           <p>₹999<sup>00</sup><br>4-piece dressy set
+           </p>
+           <style>
+             #textclr{
+               color: red;
+             }
+             #off{
+               background-color: red ;
+               color: white;
+             }
+           </style>
+          
+         </div>
+       </div>
+     </div>
+
+     <div class="col-3 mb-2">
+      <div class="card" style="width: 18rem;">
+        <img height="290px" src="https://www.bing.com/th?id=OPAC.Y3uM8ucIWjiCQw474C474&o=5&pid=21.1&w=148&h=182&rs=1&qlt=100&dpr=1.3&bw=6&bc=FFFFFF" class="card-img-top" alt=""> 
+         <div class="card-body">
+          
+           <p class="card-text" ><span id="off">88% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+           <p>₹3,999<sup>00</sup><br>BAESD
+            Boys Checked Pure Cotton Clothing Set
+            </p>
+           <style>
+             #textclr{
+               color: red;
+             }
+             #off{
+               background-color: red ;
+               color: white;
+             }
+           </style>
+          
+         </div>
+       </div>
+     </div>
+         
+          
+     <div class="col-3 mb-2">
+      <div class="card" style="width: 18rem;">
+        <img src="https://www.bing.com/th?id=OPAC.dYwV1C1yWM9jkg474C474&o=5&pid=21.1&w=160&h=213&rs=1&qlt=100&dpr=1.3&c=8&pcl=f5f5f5" class="card-img-top" alt="..."> 
+         <div class="card-body">
+          
+           <p class="card-text" ><span id="off">40% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+           <p>₹2,699<sup>00</sup><br>KID1
+            Infant Boys Blue Solid 3-Piece Party wear Suit Set</p>
+           <style>
+             #textclr{
+               color: red;
+             }
+             #off{
+               background-color: red ;
+               color: white;
+             }
+           </style>
+          
+         </div>
+       </div>
+     </div>
+         
+     
+          
+      
+       </div>
+
+
+         </div>
+         </div>
+
+
+            </div>
+
+       </div> 
+
+
+<br>
+<div class="row border border-4  mt-1 mx-4">
+  <h2>Trending Kid's Girls
+    
+    </h2> 
+    
+
+<div id="carouselExample" class="carousel slide">
+<div class="carousel-inner">
+  <div class="carousel-item active">
+   <div class="row">
+
+    <div class="col-3 mb-2">
+      
+    <div class="card" style="width: 18rem;">
+     <img src="https://www.bing.com/th?id=OPAC.Tk8aASUisp39mw474C474&o=5&pid=21.1&w=160&h=213&rs=1&qlt=100&dpr=1.3&c=8&pcl=f5f5f5" class="card-img-top" alt="..."> 
+      <div class="card-body">
+       
+        <p class="card-text" ><span id="off">63% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+        <p>₹1,999<sup>00</sup><br>Aks Kids
+          Girls Bandhani Printed Tie-Ups Fit & Flare Maxi Dress
+          </p>
+        <style>
+          #textclr{
+            color: red;
+          }
+          #off{
+            background-color: red ;
+            color: white;
+          }
+        </style>
+       
+      </div>
+      
+    </div>
+  </div>
+   
+  <div class="col-3 mb-2">
+  <div class="card" style="width: 18rem;">
+    <img src="https://www.bing.com/th?id=OPAC.KiVz4MHNv0VlUw474C474&o=5&pid=21.1&w=160&h=213&rs=1&qlt=100&dpr=1.3&c=8&pcl=f5f5f5" class="card-img-top" alt="..."> 
+     <div class="card-body">
+      
+       <p class="card-text" ><span id="off">64% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+       <p>₹999<sup>00</sup><br>Aks Kids
+        Girls Floral Printed Fit & Flare Brasso Midi Dress
+        </p>
+       <style>
+         #textclr{
+           color: red;
+         }
+         #off{
+           background-color: red ;
+           color: white;
+         }
+       </style>
+      
+     </div>
+   </div>
+ </div>
+
+ <div class="col-3 mb-2">
+  <div class="card" style="width: 18rem;">
+    <img height="290px" src="https://www.bing.com/th?id=OPAC.0fpJiEFokviO%2fA474C474&o=5&pid=21.1&w=160&h=213&rs=1&qlt=100&dpr=1.3&c=8&pcl=f5f5f5" class="card-img-top" alt=""> 
+     <div class="card-body">
+      
+       <p class="card-text" ><span id="off">88% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+       <p>₹1,999<sup>00</sup><br>Aks Kids
+        Girls Georgette Embroidered Sequined Maxi Dress
+        </p>
+       <style>
+         #textclr{
+           color: red;
+         }
+         #off{
+           background-color: red ;
+           color: white;
+         }
+       </style>
+      
+     </div>
+   </div>
+ </div>
+     
+      
+ <div class="col-3 mb-2">
+  <div class="card" style="width: 18rem;">
+    <img src="https://www.bing.com/th?id=OPAC.8bhU5307bprE7A474C474&o=5&pid=21.1&w=160&h=213&rs=1&qlt=100&dpr=1.3&c=8&pcl=f5f5f5" class="card-img-top" alt="..."> 
+     <div class="card-body">
+      
+       <p class="card-text" ><span id="off">40% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+       <p>₹2,699<sup>00</sup><br>Girls Floral Printed Cold-Shoulder A-Line Midi Dress
+       </p>
+       <style>
+         #textclr{
+           color: red;
+         }
+         #off{
+           background-color: red ;
+           color: white;
+         }
+       </style>
+      
+     </div>
+   </div>
+ </div>
+     
+ 
+      
+  
+   </div>
+
+
+     </div>
+     </div>
+
+
+        </div>
+
+</div>
+<br>
+<div class="row border border-4  mt-1 mx-4">
+  <h2>Trending Cosmetics
+    
+    </h2> 
+    
+
+<div id="carouselExample" class="carousel slide">
+<div class="carousel-inner">
+  <div class="carousel-item active">
+   <div class="row">
+
+    <div class="col-3 mb-2">
+      
+    <div class="card" style="width: 18rem;">
+     <img src="https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/resize-w:540/oswOCKTmk-Clinique-Even-Better-Glow-Light-Reflecting-Makeup-Foundation-SPF-15-WN-12-Meringue-(30ml).png" class="card-img-top" alt="..."> 
+      <div class="card-body">
+       
+        <p class="card-text" ><span id="off">63% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+        <p>₹2,999<sup>00</sup><br>CLINIQUE Even Better Glow Light Reflecting Makeup Foundation SPF 15 - WN 12 Meringue (30ml)
+        </p>
+        <style>
+          #textclr{
+            color: red;
+          }
+          #off{
+            background-color: red ;
+            color: white;
+          }
+        </style>
+       
+      </div>
+    </div>
+  </div>
+   
+  <div class="col-3 mb-2">
+  <div class="card" style="width: 18rem;">
+    <img src="https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/resize-w:540/1106841/rO5QWoJ3pY-697045155323_1.jpg" class="card-img-top" alt="..."> 
+     <div class="card-body">
+      
+       <p class="card-text" ><span id="off">64% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+       <p>₹5000<sup>00</sup><br>
+        Ahava
+        Ahava Mineral Radiance Overnight Skin De-Stressing Cream (50ml)
+        share icon
+        Rate this product
+        </p>
+       <style>
+         #textclr{
+           color: red;
+         }
+         #off{
+           background-color: red ;
+           color: white;
+         }
+       </style>
+      
+     </div>
+   </div>
+ </div>
+
+ <div class="col-3 mb-2">
+  <div class="card" style="width: 18rem;">
+    <img height="290px" src="https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/resize-w:540/1105622/S4CEveVBlY-8904153388638_1.jpg" class="card-img-top" alt=""> 
+     <div class="card-body">
+      
+       <p class="card-text" ><span id="off">88% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+       <p>₹2,425<sup>00</sup><br>
+        Forest Essentials
+        Forest Essentials Kumkumadi Night Cream (30g)
+        </p>
+       <style>
+         #textclr{
+           color: red;
+         }
+         #off{
+           background-color: red ;
+           color: white;
+         }
+       </style>
+      
+     </div>
+   </div>
+ </div>
+     
+      
+ <div class="col-3 mb-2">
+  <div class="card" style="width: 18rem;">
+    <img src="https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/resize-w:540/1125451/NnJC2wx0Y-1125451_1.jpg" class="card-img-top" alt="..."> 
+     <div class="card-body">
+      
+       <p class="card-text" ><span id="off">40% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+       <p>₹2,699<sup>00</sup><br>
+        Forest Essentials
+        Forest Essentials Tejasvi Brightening Emulsion Ayurvedic Face Massage Cream (15g)
+        </p>
+       <style>
+         #textclr{
+           color: red;
+         }
+         #off{
+           background-color: red ;
+           color: white;
+         }
+       </style>
+      
+     </div>
+   </div>
+ </div>
+     
+ 
+      
+  
+   </div>
+
+
+     </div>
+     </div>
+
+
+        </div>
+</div>
+<br>
+<div class="row border border-4  mt-1 mx-4">
+  <h2>Trending Speaker
+    
+    </h2> 
+    
+
+<div id="carouselExample" class="carousel slide">
+<div class="carousel-inner">
+  <div class="carousel-item active">
+   <div class="row">
+
+    <div class="col-3 mb-2">
+      
+    <div class="card" style="width: 18rem;">
+     <img src="https://www.bing.com/th?id=OPAC.5zSdBpqdqrn2jw474C474&o=5&pid=21.1&w=148&h=232&rs=1&qlt=100&dpr=1.3&bw=6&bc=FFFFFF" class="card-img-top" alt="..."> 
+      <div class="card-body">
+       
+        <p class="card-text" ><span id="off">63% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+        <p>₹21,999<sup>00</sup><br>GIZMORE
+          220W Thunder DJ Trolley Party Speaker
+          </p>
+        <style>
+          #textclr{
+            color: red;
+          }
+          #off{
+            background-color: red ;
+            color: white;
+          }
+        </style>
+       
+      </div>
+    </div>
+  </div>
+   
+  <div class="col-3 mb-2">
+  <div class="card" style="width: 18rem;">
+    <img src="https://www.bing.com/th?id=OPAC.IwwCsL9pkSOBAA474C474&o=5&pid=21.1&w=148&h=148&rs=1&qlt=100&dpr=1.3&bw=6&bc=FFFFFF" class="card-img-top" alt="..."> 
+     <div class="card-body">
+      
+       <p class="card-text" ><span id="off">64% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+       <p>₹8,000<sup>00</sup><br>DECIWOOD
+        Black Unplugged Wooden Potable Bluetooth Speaker</p>
+       <style>
+         #textclr{
+           color: red;
+         }
+         #off{
+           background-color: red ;
+           color: white;
+         }
+       </style>
+      
+     </div>
+   </div>
+ </div>
+
+ <div class="col-3 mb-2">
+  <div class="card" style="width: 18rem;">
+    <img height="290px" src="https://www.bing.com/th?id=OPAC.mp1QZOBUYV%2fpjg474C474&o=5&pid=21.1&w=148&h=148&rs=1&qlt=100&dpr=1.3&bw=6&bc=FFFFFF" class="card-img-top" alt=""> 
+     <div class="card-body">
+      
+       <p class="card-text" ><span id="off">88% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+       <p>₹2,2500<sup>00</sup><br>Marshall
+        Acton III Bluetooth Powered Speaker
+        </p>
+       <style>
+         #textclr{
+           color: red;
+         }
+         #off{
+           background-color: red ;
+           color: white;
+         }
+       </style>
+      
+     </div>
+   </div>
+ </div>
+     
+      
+ <div class="col-3 mb-2">
+  <div class="card" style="width: 18rem;">
+    <img src="https://www.bing.com/th?id=OPAC.FaQOI0oHzaOYMA474C474&o=5&pid=21.1&w=148&h=236&rs=1&qlt=100&dpr=1.3&bw=6&bc=FFFFFF" class="card-img-top" alt="..."> 
+     <div class="card-body">
+      
+       <p class="card-text" ><span id="off">40% off </span><span></span><span id="textclr">Great Freedom Sale</span> </p>
+       <p>₹2,699<sup>00</sup><br>JBL
+        Blue Clip4 with 10Hrs Playtime, IPX67 Waterproof & Dustproof 5W Bluetooth Speaker
+        </p>
+       <style>
+         #textclr{
+           color: red;
+         }
+         #off{
+           background-color: red ;
+           color: white;
+         }
+       </style>
+      
+     </div>
+   </div>
+ </div>
+   </div>
+     </div>
+     </div>
+        </div>
+      </div>
+
+      <br>
+
+<!-- end -->
+<footer class="bg-body-tertiary text-center">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+      data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #55acee;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #dd4b39;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #ac2bac;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #0082ca;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <!-- Github -->
+      <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #333333;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2015 Copyright:
+    <a class="text-body" href="https://mdbootstrap.com/">Meesho</a>
+  </div>
+  <!-- Copyright -->
+
+
+<!-- footer -->
+<br><br><br>
+<p>
+More About Meesho
+Meesho: Affordable Online Shopping at Your Fingertips
+There are many benefits of shopping online. You can take your time and look at different options to find exactly what you want. It's easy to compare prices online and find exactly what you are looking for. And now with Meesho, you can shop for anything you want at the lowest prices in the market. Even if you want to shop for cool gifts for your friends and family, there are many options that you can find on the Internet.
+
+A Huge Selection of Products Across All Categories
+We have a vast inventory of products ranging from apparel to cosmetics to home utility and kitchen products and more. With over 50 lakh products and 650+ product categories, Meesho is sure to have everything you need. In our latest collections, you will find all the popular items at an affordable price, so you can be confident you're getting the best deal. Whether you're in the market for new clothes, accessories, or just some daily-use items for home, Meesho has what you need.
+
+Latest Women's Fashion Is Right Here
+Women’s Ethnic Wear Collection
+When it comes to women's ethnic wear, we have everything you need to find the perfect outfit for any occasion. Whether you're looking for traditional sarees and blouses, or something more modern like suits or casual Kurtis, we have it all. And with our stunning collection of accessories, footwear, and jewellery sets, it's easy to put together a complete look that will turn heads at your next wedding or festive celebration. So come and shop with us today!
+
+Western Wear for Women
+Meesho is the best place to find fashionable and affordable western wear for women. With a constantly updating inventory of casual, formal, and partywear dresses, jeans, tops, T-shirts, skirts, and more, Meesho has all the latest trending outfits you're looking for--plus funky jewelry and accessories. You'll never have to worry about overspending or not being able to find something you love!
+
+Accessories, Jewellery, and Footwear
+You may have your favorite outfit picked out but accessories can really add a sense of style and individuality that make you stand out! With so many types of accessories available, it can be difficult to find the perfect piece for yourself. Fortunately, Meesho has a wide variety of jewellery sets, handbags, belts, heels, casual footwear, watches, etc. With so many options, you'll be sure to find the perfect accessories for any outfit!
+
+Men's Ethnic Wear
+Do you need a new Sherwani? Are you heading to a wedding and want to look your best? If you answered yes, look no further than our latest men’s ethnic wear collection! Whether you want a Kurta set, Pajamas, Sherwani set, or any other Indian attire, we have an array of budget-friendly styles that are sure to fit your needs.
+
+Largest Collection of Menswear and Accessories
+Men’s Western Wear
+Through our large selection of menswear products we offer, you’re sure to find something you love. We have a vast collection of t-shirts, jeans, polos, coats, and shirts. We have sizes in stock that fit any man’s body type, and the best news of all is that they’re all affordable. We make it easy to find exactly what you’re looking for, too. Our search tool lets you filter our selection down by size, color, material, and more.
+
+Ethnic Wear for Men
+If you're on the hunt for a new sherwani or any other type of Indian attire for an upcoming wedding, our latest men's ethnic wear collection has got you covered. We have a range of budget-friendly styles to choose from, so you're sure to find something that fits your needs. Whether you're looking for a Sherwani set, Kurta pajamas, or an ethnic jacket, we've got it all!
+
+Men’s Accessories and Footwear
+When it comes to fashion, no one knows how to help you gain the upper hand in style better than us. Shop our online collection of accessories for men and pick out something for yourself or for your other half! Our accessories collection includes items like men's wallets, cufflinks, bags for men, and more. So don't waste another minute and get yourself some accessories today! Do not forget to check out our latest footwear for men. We have everything from colorful sneakers to formal footwear to flip-flops for men.
+
+Affordable and Top Quality Beauty Products
+With so many different cosmetics brands, products, and items to choose from, it can be overwhelming when trying to find the right makeup for you. Sometimes it's nice to try out new products, but if you buy bad quality makeup that breaks you out, it's not very cost-effective. We are only concerned with the best products. We only stock up on the best makeup and skincare that won't damage your skin or make you break out. We have everything from foundations, makeup removers, concealers to primer, mascara, eye shadow, and lipsticks.
+
+Cute and Trendy Kidswear Collection
+Kids grow so fast, it feels like you're constantly buying new clothes for them! Whether you're looking for the latest trends or just want something practical and affordable, our kidswear collection has got you covered. You'll find everything from rompers and dresses for girls to sets and jeans for boys. Plus, we have ethnic wear and accessories for kids of all ages. And don't forget to check out our baby care collection for all the basic products for baby care.
+
+Shop Home & Kitchen Products, Electronics, and More
+Kitchen Products
+If you're looking to spice up your kitchen, then you've come to the right place! We carry a wide variety of home and kitchen essentials like cooking utensils and serveware, kitchen storage, appliances like blenders, choppers, cooktops, and more! We are dedicated to providing the highest quality products for a reasonable price. We're confident that we have everything you're looking for in your kitchen or home!
+
+Home Utility and Essentials
+It's always a good idea to switch up your home's style every now and then - it keeps things fresh and also allows you to try out new trends. But of course, you never want to spend more money than you have to. That's where Meesho comes in! We've got amazing prices on all kinds of home furnishing items like bedsheets, curtains, cushions, and more. Plus, we have a constantly rotating selection of the best home decor items so you can always stay on top of the latest trends. So be sure to check out our home decor section today!
+
+Electronics and Accessories
+At Meesho, we give you access to a huge selection of gadgets and essentials for your electronic devices. Here you'll find everything from chargers and headphones to data cables and even external battery packs. Every month, we offer different sales and discounts on products, allowing you to save on your favorite essentials. Here you can find the perfect gift for everyone on your list without breaking your budget!
+
+Health, Fitness & Sports
+We know how important it is to take care of your health and keep yourself fit. We have everything you need to start your journey towards fitness. At our store, you will find a wide variety of fitness equipment at very affordable prices. We have everything you need to get started with your home workouts, including dumbbell sets, exercise bands, exercise mats, skipping ropes, sports kits and more!
+
+Office Supplies and Stationery
+We have a wide range of stationery items which will help you stay tidy and organised. You can buy notebooks, diaries and notepads and craft supplies which are great for school and college, or you can buy office supplies which are great for adults. We have a variety of pens, pencils, and other stationery supplies to ensure that you have what you need to write down your thoughts, make lists and so much more.
+
+Get the Meesho App for Hassle Free Online Shopping
+If you want a seamless shopping experience, you should also consider downloading Meesho’s App. While you may think that it's unnecessary to have an app for shopping, there are plenty of features that will make your life easier. If you find yourself preferring to shop from home, this is the app for you. It makes shopping online easier than ever. You can browse through a plethora of products and even get great deals with more discounts than you can count. You can even share products you like with your friends on social media in just seconds.
+
+Download Meesho App Now
+Become a Reseller: Start Making Money In Three Simple Steps
+Now you know all about different categories and products Meesho has to offer. It's time to explore and understand Meesho’s reselling option. Apart from using Meesho as an online shopping platform, you also have the option to start your online business with us. Here’s how you can begin your entrepreneurial journey.
+
+Browse: You can register for a new account or log in to an existing one on the Meesho app or website. Once you're logged in, you can browse through our catalog and select products that you want to purchase at wholesale rates!
+
+Share: With a single click, you can share catalogs and product images over Whatsapp, Facebook, or Instagram to your contacts using the share option.
+
+Earn: After sharing the products and catalogs with your customers, you will start getting orders from them. You can add a profit margin to Meesho’s prices and quote that to your customers.This will be your profit. You can quote product prices with an added margin, which will include a profit for you. Once you place the orders on your customer’s behalf, Meesho will take care of the delivery process for you.
+
+Don't Miss Out! Start Shopping Online on Meesho Now
+Meesho offers multiple payment options including debit and credit cards, UPI, and COD to help you with a smooth checkout process. If you are unhappy with any of the products you order you can immediately return them and get a full refund with no questions asked. In case you have any queries or concerns, simply send us an email at query@meesho.com. Or you can contact us on social media through Facebook, Instagram, or Twitter. We're here to help you!
+
+Online Shopping
+Mega Blockbuster Sale | Shop Now
+Mega Blockbuster Sale
+Home & Living
+Curtains & Sheers | Round Cushions | Sofa Covers | Cotton Bedsheets | Bedding Sets | Pillow Covers | Decorative Items | Duvet Covers | Blankets | Home Temple | Yoga mats | Bean Bags | Single Bed Sheet | Cushions | Face Towels | Cotton Towel | Trays | Coasters
+Men Ethnicwear
+Men Dhoti Kurtas | Men Indo Western Dresses | Men Velvet Sherwanis | Men Dhotis
+Women Western Wear
+Women Frocks | Long Tops Women | Tshirt Dresses | Designer Gown | Pencil Skirts | Women Trousers | Flared Jeans | Women Sweatshirts | Shrugs | Capris | Jacket Dresses | Fancy Ladies Sweater | Chikankari Palazzos | Ankle Length Leggings | Tights | Printed Leggings | Kaftans | Maternity Wear | Denim Women Shorts | Black Jeggings | Short Night Dress | Women Night Suits | Lace Lingerie Sets | Lingerie Sets | Push Up Bra | Stockings | Black Camisoles | Cotton Bathrobes | Satin Night Suit | Body shapers | Women Pyjamas | Swimwear | Women Jackets | Women Thermal Set
+Women Ethnicwear
+Silk Saree | Puff Sleeve Blouses | Chikankari Kurtis | Designer Lehenga | Sharara | Phulkari Dupatta | Petticoats | Abaya | Black Kurta | Velvet Shawls | Blouse Piece | Kurti Fabric | Designer Suits
+Women Footwear
+Women Slippers | Bellies | Juttis & Mojaris
+Women Accessories
+Hoop Earrings | Stud Earrings Women | Oxidised Ring | Handbags | Umbrellas | Cateye Sunglasses | Jewellery Set | Slingbags | Trolley Bags | Hijabs | Ankle Socks Women | Clutches | Hair Accessories | Maangtika | Pouches | Duffle Bags | Pashmina Shawls | Bindis | Waist Bags | Rucksacks | Briefcases | Small Travel Bags | Potlis | Nosepins | Gold Bangles | Bridal Anklets | Chandbali Earrings | Necklaces | Multi Necklace
+Electronics & Accessories
+Android Smart Watches | On Ear Headphones | Bluetooth Speakers | Bluetooth Earphones | Sport Headphones | CCTV Cameras | Spy Cameras | Keyboard | Laptop Bags | Mouse | Laptop Accessories | Pen Drives | Earphones | Fast Charging Power Banks | Headphones | Data Cables | Car Mobile Holders | Car Mobile Holders | Mobile Chargers | Speakers | Diwali Lightings | Microphone | Memory Cards | Digital Photo Frames | Dongle | VR Box
+Men Western Wear
+Cotton Shorts Men | Denim Jeans Men | Formal Trousers Men | Men Active Shorts | Sport Jackets Men | Printed Tshirts | Formal Shirts Men | Sleeveless Sweatshirts Men | Leather Jackets Men | Grey Blazers | Men Sweaters | Sport Tracksuits Men | Vests | Printed Briefs Men | Men Trunks | Wool Jackets Men
+Men Footwear
+Reebok Sports Shoes Men | Men Sandals | Leather Loafers Men
+Men Accessories
+Leather Watches Men | Gold Jewellery Men | Hair Spray For Men | Men Keychains | Men Socks | Men Scarves | Men Wrist Bands | Men Crossbody Bags | Men Shirt Studs
+Kids
+Kids Lunch Boxes | Kids Ethnic Jackets | Kids Blazers | Rompers | Kids Kurtis & Kurtas | Kids Salwar Suit Sets | Kids Ethnic Gowns | Tshirts Boys | Girls Stylish Tops
+Baby
+Baby Pillows | Baby Towels | Baby Hanging Cradle | Baby Sleeping Bag | Baby Blanket
+Home & Kitchen
+Toaster | Mixer Grinder | Cookers | Juicer | Food Processors | Roti Maker | Sandwich Maker | Kettles | Hand Blender | Table Cover | Napkins Holder | Kitchen Mat | Kitchen Towel | Aprons | Kitchen Gloves | Racks & Holders | Spice Racks | Jars & Container | Water Bottles | Thermos & Flasks | Lunch Boxes | Salt & Pepper Shakers | Knives | Food Strainers | Choppers | Mashers | Graters | Cutlery | Chopping Boards | Kitchen Scissors | Ice Cube Trays | Measuring Cups | Tongs | Ice Cream Scoops | Funnels | Trivets
+Personal Care & Wellness
+Tummy trimmer | Makeup Kits | Hair Color | Hair Steamers | Hair Care | Oral Care | Beard Oil | Deodorants | Eye Lenses | Soap | Oximeter | Bb Cream | Body Scrub | Olive Oils | Talcum Powder | Face Steamers | Compact | Nail Cutter | Lip Balm
+
+</p>
+
+
+</body>
+</html>
